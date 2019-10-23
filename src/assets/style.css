@@ -1,0 +1,954 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #864F9C;
+  padding: 20px;
+}
+
+nav .logo {
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+  color: #e6e1e1;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 35%;
+  text-transform: uppercase;
+}
+
+nav ul li {
+  letter-spacing: 0.7px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav ul li:hover {
+  cursor: pointer;
+  color: lightslategray;
+}
+
+nav .home {
+  border-radius: 3%;
+  background: #633A79;
+  width: 77px;
+  text-align: center;
+  padding: 3px 7px 3px 7px;
+}
+
+.main {
+  background: #864F9C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.main .tekstas {
+  color: white;
+  width: 1017px;
+  height: 91px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Cabin', sans-serif;
+  letter-spacing: 1px;
+  padding: 65px 0px 40px 0px;
+}
+
+.main .tekstas span {
+  display: block;
+}
+
+.main .btn1 {
+  height: 70px;
+  width: 293px;
+  text-transform: uppercase;
+  background: #EB7D4B;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #eee7e7;
+  border-radius: 3%;
+  -webkit-box-shadow: 0 4px 2px -2px #83472b;
+          box-shadow: 0 4px 2px -2px #83472b;
+  margin: 0px 0px 146px 0px;
+}
+
+.paslaugos {
+  background: #16C2A3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 747px;
+}
+
+.paslaugos .tekstas {
+  padding: 116px 0px 122px 0px;
+  height: auto;
+  width: 100%;
+}
+
+.paslaugos .tekstas hr {
+  width: 87px;
+  height: 4px;
+  background: #13A58B;
+  border: none;
+}
+
+.paslaugos .tekstas h1 {
+  padding: 0px 0px 10px 0px;
+  margin: 0;
+  font-family: 'Cabin', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: white;
+  font-size: 50px;
+}
+
+.paslaugos .tekstas p {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+}
+
+.paslaugos .tekstas p span {
+  display: block;
+}
+
+.paslaugos .purpleback {
+  background: #16C2A3;
+  height: auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 91px;
+}
+
+.paslaugos .purpleback .services {
+  background: #864F9C;
+  width: 1138px;
+  height: 294px;
+  border-radius: 1%;
+}
+
+.paslaugos .purpleback .services .sarasas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: -24px;
+}
+
+.paslaugos .purpleback .services .sarasas .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 25%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.paslaugos .purpleback .services .sarasas .box h1 {
+  font-family: 'Cabin', sans-serif;
+  color: white;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin: 0.3px;
+}
+
+.paslaugos .purpleback .services .sarasas .box p {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+.paslaugos .purpleback .services .sarasas .box .fa-flag {
+  color: red;
+}
+
+.paslaugos .purpleback .services .sarasas .box .fa-cogs {
+  color: #484892;
+}
+
+.paslaugos .purpleback .services .sarasas .box .fa-pencil-alt {
+  color: burlywood;
+}
+
+.paslaugos .purpleback .services .sarasas .box .fa-rocket {
+  color: #a8a866;
+}
+
+.team {
+  background: #E7F1F8;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.team .tekstas {
+  padding: 116px 0px 70px 0px;
+}
+
+.team .tekstas hr {
+  width: 100px;
+  height: 2px;
+  background: #bbb9b9;
+  border: none;
+}
+
+.team .tekstas h1 {
+  padding-bottom: 10px;
+  margin: 0;
+  font-family: 'Cabin', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #636363;
+  font-size: 50px;
+}
+
+.team .tekstas p {
+  color: #838181;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+}
+
+.team .komanda {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+}
+
+.team .komanda .members {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 50px;
+}
+
+.team .komanda .members .circle {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background: #838181;
+}
+
+.team .komanda .members h1 {
+  text-transform: uppercase;
+  color: #636363;
+  letter-spacing: 0.5px;
+  font-family: 'Cabin', sans-serif;
+  margin: 15px 0px 0px 0px;
+}
+
+.team .komanda .members h5 {
+  color: #64C7EB;
+  letter-spacing: 0.5px;
+  font-family: 'Cabin', sans-serif;
+  text-transform: uppercase;
+  margin-top: 0px;
+}
+
+.team .komanda .members p {
+  color: #838181;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 20px;
+}
+
+.team .komanda .members .ikonos {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 20px 60px 20px;
+}
+
+.team .komanda .members .ikonos i {
+  color: #64C7EB;
+}
+
+.skills {
+  background: white;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.skills .tekstas {
+  padding: 116px 0px 70px 0px;
+}
+
+.skills .tekstas hr {
+  width: 100px;
+  height: 2px;
+  background: #bbb9b9;
+  border: none;
+}
+
+.skills .tekstas h1 {
+  padding-bottom: 10px;
+  margin: 0;
+  font-family: 'Cabin', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #636363;
+  font-size: 40px;
+}
+
+.skills .tekstas p {
+  color: #838181;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+.skills .tekstas p span {
+  display: block;
+}
+
+.loptopai {
+  background: #FFDD99;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.loptopai .tekstas {
+  padding: 100px 0px 20px 0px;
+}
+
+.loptopai .tekstas hr {
+  width: 100px;
+  height: 2px;
+  background: #bbb9b9;
+  border: none;
+}
+
+.loptopai .tekstas h1 {
+  padding-bottom: 10px;
+  margin: 0;
+  font-family: 'Cabin', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #636363;
+  font-size: 40px;
+}
+
+.loptopai .tekstas p {
+  color: #838181;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+.loptopai .tekstas p span {
+  display: block;
+}
+
+.buttons {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.buttons button {
+  padding: 5px 15px 5px 15px;
+  background: #EBCC8D;
+  border: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 3%;
+}
+
+.buttons button:hover {
+  background: white;
+}
+
+.btn2 {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn2 button {
+  padding: 15px 50px 15px 50px;
+  text-transform: uppercase;
+  background: #2fb9e7;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: white;
+  border-radius: 3%;
+  -webkit-box-shadow: 0 4px 2px -2px #1d6d88;
+          box-shadow: 0 4px 2px -2px #1d6d88;
+  margin: 40px 0px 70px 0px;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.btn2 button:hover {
+  cursor: pointer;
+}
+
+.fotkes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+}
+
+.fotkes .row1 img {
+  padding: 50px;
+}
+
+.fotkes .row2 img {
+  padding: 50px;
+}
+
+.boxesdisplay {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.boxesdisplay img {
+  padding-bottom: 70px;
+}
+
+.reviews {
+  background: #D74580;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.reviews .tekstas {
+  padding: 116px 0px 70px 0px;
+}
+
+.reviews .tekstas hr {
+  width: 100px;
+  height: 2px;
+  background: #bbb9b9;
+  border: none;
+}
+
+.reviews .tekstas h1 {
+  padding-bottom: 10px;
+  margin: 0;
+  font-family: 'Cabin', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: white;
+  font-size: 40px;
+}
+
+.reviews .tekstas p {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+.reviews .tekstas p span {
+  display: block;
+}
+
+.reviews .atsiliepimas {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 70px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.reviews .atsiliepimas .pirmas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 180px;
+}
+
+.reviews .atsiliepimas .pirmas .circle {
+  width: 96px;
+  height: 96px;
+  background: grey;
+  border-radius: 50%;
+  position: relative;
+  top: -15px;
+}
+
+.reviews .atsiliepimas .pirmas .columntext {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  padding: 0px 0px 0px 30px;
+  font-size: 18px;
+}
+
+.reviews .atsiliepimas .pirmas .columntext h1 {
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 0.5px;
+  font-family: 'Cabin', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.reviews .atsiliepimas .pirmas .columntext h3 {
+  color: #eeee36;
+  letter-spacing: 0.5px;
+  font-family: 'Cabin', sans-serif;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 67px;
+}
+
+.reviews .atsiliepimas .pirmas .columntext p {
+  color: white;
+  font-family: 'Roboto',sans-serif;
+  padding: 0px 0px 10px 0px;
+  margin: 0;
+}
+
+.reviews .atsiliepimas .antras {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.reviews .atsiliepimas .antras .circle {
+  width: 96px;
+  height: 96px;
+  background: grey;
+  border-radius: 50%;
+  position: relative;
+  top: -15px;
+}
+
+.reviews .atsiliepimas .antras .columntext {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  padding: 0px 0px 0px 30px;
+  font-size: 18px;
+}
+
+.reviews .atsiliepimas .antras .columntext h1 {
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 0.5px;
+  font-family: 'Cabin', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.reviews .atsiliepimas .antras .columntext h3 {
+  color: #eeee36;
+  letter-spacing: 0.5px;
+  font-family: 'Cabin', sans-serif;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 67px;
+}
+
+.reviews .atsiliepimas .antras .columntext p {
+  color: white;
+  font-family: 'Roboto',sans-serif;
+  padding: 0px 0px 10px 0px;
+  margin: 0;
+}
+
+.kontaktai {
+  background: #3C5399;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.kontaktai .tekstas {
+  padding: 100px 0px 20px 0px;
+}
+
+.kontaktai .tekstas hr {
+  width: 100px;
+  height: 2px;
+  background: #bbb9b9;
+  border: none;
+}
+
+.kontaktai .tekstas h1 {
+  padding-bottom: 10px;
+  margin: 0;
+  font-family: 'Cabin', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: white;
+  font-size: 40px;
+}
+
+.kontaktai .tekstas p {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+
+.kontaktai .tekstas p span {
+  display: block;
+}
+
+.kontaktai .forma {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.kontaktai .forma input {
+  padding: 25px 200px 15px 25px;
+  border-radius: 3%;
+  background: #273971;
+  border: none;
+  color: white;
+  font-family: 'Robota', sans-serif;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.kontaktai .forma input::-webkit-input-placeholder {
+  color: white;
+  font-size: 18px;
+}
+
+.kontaktai .forma input:-ms-input-placeholder {
+  color: white;
+  font-size: 18px;
+}
+
+.kontaktai .forma input::-ms-input-placeholder {
+  color: white;
+  font-size: 18px;
+}
+
+.kontaktai .forma input::placeholder {
+  color: white;
+  font-size: 18px;
+}
+
+.kontaktai .textarea {
+  width: 70%;
+}
+
+.kontaktai .textarea textarea {
+  margin: 20px 0px 70px 0px;
+  border: none;
+  background: #273971;
+  position: relative;
+  font-family: 'Robota', sans-serif;
+  left: 10px;
+  overflow-x: hidden;
+}
+
+.kontaktai .textarea textarea::-webkit-input-placeholder {
+  color: white;
+  font-size: 18px;
+  position: relative;
+  left: 25px;
+  top: 10px;
+  overflow-y: hidden;
+}
+
+.kontaktai .textarea textarea:-ms-input-placeholder {
+  color: white;
+  font-size: 18px;
+  position: relative;
+  left: 25px;
+  top: 10px;
+  overflow-y: hidden;
+}
+
+.kontaktai .textarea textarea::-ms-input-placeholder {
+  color: white;
+  font-size: 18px;
+  position: relative;
+  left: 25px;
+  top: 10px;
+  overflow-y: hidden;
+}
+
+.kontaktai .textarea textarea::placeholder {
+  color: white;
+  font-size: 18px;
+  position: relative;
+  left: 25px;
+  top: 10px;
+  overflow-y: hidden;
+}
+
+.button {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.button button {
+  padding: 15px 50px 15px 50px;
+  text-transform: uppercase;
+  background: #2fb9e7;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: white;
+  border-radius: 3%;
+  -webkit-box-shadow: 0 4px 2px -2px #1d6d88;
+          box-shadow: 0 4px 2px -2px #1d6d88;
+  margin: 0px 0px 70px 0px;
+}
+
+footer {
+  background: #273971;
+  padding: 0;
+  margin: 0;
+  height: auto;
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style-type: none;
+  padding: 20px;
+  margin: 0;
+}
+
+footer ul li {
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  font-family: 'Cabit',sans-serif;
+}
+
+footer ul li:hover {
+  cursor: pointer;
+  color: #64C7EB;
+}
+/*# sourceMappingURL=style.css.map */
