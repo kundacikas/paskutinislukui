@@ -11,4 +11,5 @@ import './assets/img/flag.png'
 import './assets/img/gear.png'
 import './assets/img/logo.png'
 import './assets/img/rocket.png'
+import './assets/img/pencil.png'
 

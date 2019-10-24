@@ -534,6 +534,7 @@ nav {
     display: flex;
     padding-bottom: 70px;
     justify-content: space-between;
+    text-align: left;
 
 
     .pirmas {
@@ -555,6 +556,7 @@ nav {
             justify-content: center;
             align-items: center;
             flex-direction: column;
+            text-align: left;
             color: white;
             padding: 0px 0px 0px 30px;
             font-size: 18px;
@@ -565,6 +567,8 @@ nav {
                 font-family:'Cabin', sans-serif;
                 padding: 0;
                 margin: 0;
+                position: relative;
+    left: -48px;
             }
 
             h3 {
@@ -575,13 +579,15 @@ nav {
                 padding: 0;
                 margin: 0;
                 padding-bottom: 67px;
+                position: relative;
+                left: -67px;
                 
             }
 
             p {
                 color: white;
                 font-family: 'Roboto',sans-serif;
-                padding: 0px 0px 10px 0px;
+                padding: 0px 0px 30px 0px;
                 margin: 0;
             }
 
@@ -610,6 +616,7 @@ nav {
             align-items: center;
             flex-direction: column;
             color: white;
+            text-align: left;
             padding: 0px 0px 0px 30px;
             font-size: 18px;
             h1 {
@@ -619,6 +626,9 @@ nav {
                 font-family:'Cabin', sans-serif;
                 padding: 0;
                 margin: 0;
+                text-align: left;
+                position: relative;
+    left: -48px;
             }
 
             h3 {
@@ -629,13 +639,16 @@ nav {
                 padding: 0;
                 margin: 0;
                 padding-bottom: 67px;
+                text-align: left;
+                position: relative;
+                left: -67px;
                 
             }
 
             p {
                 color: white;
                 font-family: 'Roboto',sans-serif;
-                padding: 0px 0px 10px 0px;
+                padding: 0px 0px 30px 0px;
                 margin: 0;
             }
 
